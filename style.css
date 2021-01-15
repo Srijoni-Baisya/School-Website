@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background: linear-gradient(to bottom right, rgba(250,128,175,100), rgba(66,254,242,100));
 }
 h1{
     font-family: 'Noto Serif', serif;
@@ -11,7 +12,6 @@ marquee{
     font-family: Times New Roman;
 }
 #welcome{
-    background: linear-gradient(to bottom right, rgba(250,128,175,100), rgba(66,254,242,100));
     margin-bottom: 25px;
     margin-top: 25px;
     padding-left: 150px;
@@ -25,14 +25,19 @@ h5{
     color: black;
 }
 #videos{
-    background: linear-gradient(to bottom right, rgba(250,128,175,100), rgba(66,254,242,100));
     margin-bottom: 25px;
     margin-top: 25px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 #contact{
-    background: linear-gradient(to bottom right, rgba(250,128,175,100), rgba(66,254,242,100));
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+#campus{
+   
     margin-bottom: 25px;
     margin-top: 25px;
     padding-bottom: 50px;
@@ -111,4 +116,33 @@ h1 {
     position:sticky;
     top: 0;
     z-index: 99999;
+}
+
+.campus_mainDiv{
+    border: 1px solid #c7c7c7;  
+}
+.campus_mainDiv img{
+   width: 300px;;
+    height: 190px;;
+    padding-left: 40px;
+}
+.campus_mainDiv hr{
+    width: 230px;
+}
+.campus_mainDiv h5,.campus_mainDiv p{
+  margin-left: 20px;  
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700;
 }
