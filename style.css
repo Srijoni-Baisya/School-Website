@@ -167,3 +167,15 @@ h1 {
     font-family: Times New Roman;
     font-size: 20px;
 }
+.modal-content{
+    margin-top: 100px;
+}
+.img_modal{
+    display: inline-block;
+}
+.p_modal{
+    margin-top: 10px;
+}
+.modal-body{
+    text-align: center;
+}
