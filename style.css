@@ -179,3 +179,11 @@ h1 {
 .modal-body{
     text-align: center;
 }
+#event img{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 2px;
+    margin-left: 60px;
+}
